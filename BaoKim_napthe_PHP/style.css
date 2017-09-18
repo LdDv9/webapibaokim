@@ -1,0 +1,65 @@
+body{
+	background-color: red;
+	background: url('IMG/back.jpeg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+}
+/*header*/
+#header h1{
+	color: #ffffff;
+	
+	text-align: center;
+	padding: 20px;
+	font-size: 70px;
+	background-color: #000000;
+	border-radius: 8px;
+	opacity: 0.8;
+	
+}
+/*content*/
+#feature1 .row{
+
+	text-align: center;
+}
+#feature1 .row h2{
+	font-size: 50px;
+
+}
+#feature1 .row span{
+	color: #E74C3C;
+
+}
+#feature1 #thongbao{
+	color: #c0392B;
+	opacity: 0.9;
+	margin: 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #000000;
+}
+/*feature2*/
+#feature2 .row {
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #000000;
+	text-align: center;
+	opacity: 0.9;
+
+}
+#feature2 .row>div>div{
+	padding: 6px 0 6px 0;
+}
+#feature2 .row a {
+	font-size: 1.5em;
+
+} 
+#feature2 .row .soacc{
+	background-color: #34495E;
+}
+@media (max-width:992px){
+	#feature2 .tien{
+		margin-top: 30px;
+	}
+}
